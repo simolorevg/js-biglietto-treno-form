@@ -4,6 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*FLEXBOXES*/
+.flex{
+    display: flex;
+}
+.flex-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 /*COMMON*/
 body{
     background-color: lightcoral;
@@ -33,10 +42,13 @@ img[alt="Logo"]{
     display: none;
 }
 .second{
-    display: flex;
     border: 1px solid black;
 }
-.ms_grey-container{
+.ms_-container{
+    background-color: grey;
+    color: white;
+}
+.ms_name-container{
     background-color: grey;
     color: white;
 }

@@ -14,9 +14,6 @@
     align-items: center;
 }
 /*COMMON*/
-body{
-    background-color: lightcoral;
-}
 img[alt="Logo"]{
     max-width: 300px;
 }
@@ -29,6 +26,7 @@ img[alt="Logo"]{
     justify-content: center;
     gap: 50px;
     align-items: center;
+    background-color: #F4E409;
 }
 .ms_container{
     width: 70%;

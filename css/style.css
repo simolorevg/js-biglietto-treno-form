@@ -8,6 +8,9 @@
 body{
     background-color: lightcoral;
 }
+img[alt="Logo"]{
+    max-width: 300px;
+}
 /*LAYOUT*/
 .ms_wrapper{
     width: 100%;

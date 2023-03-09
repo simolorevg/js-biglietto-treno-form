@@ -10,7 +10,7 @@ submitBtn.addEventListener("click", function() {
     //memorzzazione dati e conversione in value
     const userName = userNameInput.value;
     const kmChoice = parseInt(kmChoiceInput.value);
-    if(!isNaN(kmChoice) && userAgeInput === ""){ //verifico se ha scritto i km in numeri
+    if(!isNaN(kmChoice)){ //verifico se ha scritto i km in numeri
         const userAge = userAgeInput.value;
         finalPrice = kmChoice * 0.21;
         message="nessuna";

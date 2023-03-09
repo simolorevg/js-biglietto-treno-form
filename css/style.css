@@ -26,11 +26,12 @@ img[alt="Logo"]{
     justify-content: center;
     gap: 50px;
     align-items: center;
-    background-color: #F4E409;
+    background-color: #473144;
 }
 .ms_container{
     width: 70%;
-    background-color: white;
+    background-color: #AF1B3F;
+    color: white;
     border-radius: 20px;
     font-size: 1.3em;
     padding: 1em;
@@ -40,13 +41,15 @@ img[alt="Logo"]{
     display: none;
 }
 .second{
-    border: 1px solid black;
+    border: 1px solid #CCB69B;
+    border-radius: 10px;
 }
-.ms_-container{
-    background-color: grey;
-    color: white;
+.second table{
+    color: inherit;
 }
 .ms_name-container{
-    background-color: grey;
+    background-color: #473144;
+    padding: 10px;
     color: white;
+    border-radius: 10px 0 0 10px;
 }

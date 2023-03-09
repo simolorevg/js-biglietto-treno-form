@@ -1,3 +1,4 @@
+console.log("Se fosse vero che i viaggi educano la mente, i controllori dei treni sarebbero gli uomini più saggi del mondo")
 const submitBtn = document.getElementById("submit-btn");
 const userNameInput = document.getElementById('username');
 const kmChoiceInput = document.getElementById('km-choice');
